@@ -1,14 +1,12 @@
-# Tikstalk - Advanced TikTok Scraper
-
-A comprehensive Python application for downloading TikTok content including videos, reposts, and liked videos with advanced features like concurrent downloads, FFmpeg integration, and full account scraping.
-
+# Tikstalk - Easy TikTok Scraper
+Yeah, its cool trust me.
 ## 🚀 Features
 
 ### Core Functionality
 - **Multi-Content Scraping**: Download videos, reposts, and liked videos
-- **Full Account Scraping**: Complete account download with everything the bot can find
+- **Full Account Scraping**: Complete account download with everything the bot can find.
 - **Automated Monitoring**: Configurable interval checking for new content
-- **Concurrent Downloads**: Multi-threaded downloading for improved speed
+- **Concurrent Downloads**: Multi-threaded downloading for improved speed!
 - **Duplicate Prevention**: Smart tracking to avoid re-downloading content
 
 ### Advanced Features
@@ -45,7 +43,7 @@ pip3 install yt-dlp
 python3 tiktok_downloader.py
 ```
 
-### FFmpeg Installation (Optional)
+### FFmpeg Installation (Optional For Most)
 - **macOS**: `brew install ffmpeg`
 - **Ubuntu/Debian**: `sudo apt install ffmpeg`
 - **Windows**: Download from [ffmpeg.org](https://ffmpeg.org/download.html)
@@ -55,25 +53,20 @@ python3 tiktok_downloader.py
 ### Basic Setup
 1. **Launch Tikstalk**
 2. **Configure Target Account**
-   - Enter TikTok username (without @)
+   - Enter TikTok username (without @ <or with it i didnt check>)
    - Select download folder
    - Set check interval
 
 ### Content Selection
 - **Videos**: Regular TikTok posts
-- **Reposts**: Content the user has reposted
-- **Liked Videos**: Videos the user has liked (if public)
-- **Full Account Scrape**: Everything available (videos + reposts + liked)
+thats all!
 
 ### Quantity Controls
-- Set individual limits for each content type
-- Full scrape mode automatically sets higher limits
-- Configurable per content type (videos: 500, reposts: 200, liked: 200)
+- Set limits. Whitch is something you dont do if you use this!
 
 ### Advanced Options
 - **Video Quality**: Choose from Best, 720p, 480p, Audio Only
-- **Conversion**: MP4, WebM, compressed versions, audio extraction
-- **Organization**: Date-based folder structure
+- **Organization**: Date-based folder structure (i wish she took me on a date😭)
 - **Metadata**: Download video info, thumbnails, subtitles
 
 ### Batch Downloads
@@ -101,23 +94,11 @@ project/
 ## ⚙️ Configuration
 
 Settings are saved in `tikstalk_config.json`:
-- Downloaded content tracking (videos, reposts, liked)
+- Downloaded content tracking.
 - User preferences and limits
 - Download folder location
 - Scraping preferences
 - Performance settings
-
-## 🔧 Performance Optimization
-
-### Concurrent Downloads
-- Adjustable worker threads (default: 4)
-- Optimized for speed vs. system resources
-- Real-time speed monitoring
-
-### Content Limits
-- **Default Limits**: Videos (50), Reposts (25), Liked (25)
-- **Full Scrape**: Videos (500), Reposts (200), Liked (200)
-- **Custom Limits**: User-configurable per content type
 
 ## 🎥 Video Conversion Options
 
@@ -130,7 +111,7 @@ Settings are saved in `tikstalk_config.json`:
 ## 🚨 Troubleshooting
 
 ### SSL Certificate Errors
-The application includes `--no-check-certificate` flag to bypass SSL issues common on macOS.
+The application includes `--no-check-certificate` flag to bypass SSL issues common on macOS. (oof)
 
 ### Rate Limiting
 Tikstalk respects platform rate limits with built-in delays and timeout handling.
@@ -166,7 +147,7 @@ Ensure FFmpeg is properly installed and accessible in system PATH for conversion
 
 ## 🔒 Privacy & Ethics
 
-- Respects TikTok's terms of service
+- Respects TikTok's terms of service*
 - Only downloads publicly available content
 - Maintains original creator attribution
 - For personal/educational use only
@@ -190,4 +171,4 @@ Ensure FFmpeg is properly installed and accessible in system PATH for conversion
 
 ## 📄 License
 
-This project is for educational and personal use. Please respect content creators' rights and TikTok's terms of service.
+This project is for educational and personal use. Please respect content creators' rights and TikTok's terms of service. I Like Nadja! thanks for slopping by.
